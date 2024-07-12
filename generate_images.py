@@ -17,7 +17,7 @@ def generate_output_folder() -> None:
     """
     Create the output folder if it does not already exist
     """
-    os.mkdir("generated", exist_ok=True)
+    os.makedirs("generated", exist_ok=True)
 
 
 ################################################################################
